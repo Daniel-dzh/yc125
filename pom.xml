@@ -24,23 +24,22 @@
         <spring-framework.version>5.3.20</spring-framework.version>
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
+
+
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
             </dependency>
+
         </dependencies>
-
-
-
     </dependencyManagement>
 
 
-
     <dependencies>
-
 
         <dependency>
             <groupId>com.mysql</groupId>
@@ -126,8 +125,8 @@
             <version>1.9.6</version>
         </dependency>
 
-
     </dependencies>
+
 
     <build>
         <plugins>
