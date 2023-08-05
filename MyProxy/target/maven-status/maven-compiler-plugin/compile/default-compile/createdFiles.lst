@@ -1,0 +1,7 @@
+com\yc\dynamicProxy\Cglib_ProxyAssist.class
+com\yc\dynamicProxy\Test.class
+com\yc\staticProxy\OrderBizImpl.class
+com\yc\staticProxy\StaticProxy.class
+com\yc\staticProxy\Test.class
+com\yc\dynamicProxy\JDK_ProxyAssist.class
+com\yc\staticProxy\OrderBiz.class
