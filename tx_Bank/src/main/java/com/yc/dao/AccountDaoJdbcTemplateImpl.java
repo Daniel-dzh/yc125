@@ -36,7 +36,7 @@ public class AccountDaoJdbcTemplateImpl implements AccountDao{
     @Override
     public void update(int accountid, double money) {
         this.jdbcTemplate.update(
-                "update accounts set balance = balance+? where accountid = ? ",
+                "update accounts set balance = ? where accountid = ? ",
                 money+"", accountid+"");
     }
 

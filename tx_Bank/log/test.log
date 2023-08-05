@@ -1,3 +1,16 @@
-20:45:40.418 INFO  com.yc.myconfigs.MyDataSourceConfig 78 druidDataSource - 配置druid的连接池的大小:16
-20:45:41.982 INFO  com.alibaba.druid.support.logging.Log4j2Impl 106 info - {dataSource-1} inited
-20:45:42.070 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 38 findAll - [Account(accountid=1, balance=319.0), Account(accountid=2, balance=736.0), Account(accountid=3, balance=1153.0), Account(accountid=4, balance=1570.0), Account(accountid=5, balance=1987.0), Account(accountid=6, balance=2404.0), Account(accountid=7, balance=2821.0), Account(accountid=8, balance=3238.0), Account(accountid=9, balance=3655.0), Account(accountid=10, balance=4072.0), Account(accountid=11, balance=4489.0), Account(accountid=12, balance=4906.0), Account(accountid=13, balance=5323.0), Account(accountid=14, balance=5740.0), Account(accountid=15, balance=6157.0), Account(accountid=16, balance=7729.0), Account(accountid=18, balance=6766.0), Account(accountid=19, balance=6666.0)]
+09:49:38.493 INFO  com.yc.myconfigs.MyDataSourceConfig 78 druidDataSource - 配置druid的连接池的大小:16
+09:49:40.129 INFO  com.alibaba.druid.support.logging.Log4j2Impl 106 info - {dataSource-1} inited
+09:49:40.223 INFO  com.yc.myconfigs.MyDataSourceConfig 78 druidDataSource - 配置druid的连接池的大小:16
+09:49:40.405 INFO  com.alibaba.druid.support.logging.Log4j2Impl 106 info - {dataSource-2} inited
+09:49:40.418 INFO  com.yc.config.Test02_DataSourceConfig 86 testTransactionManager - org.springframework.jdbc.datasource.DataSourceTransactionManager@5305c37d
+09:49:40.423 INFO  com.yc.config.Test02_DataSourceConfig 81 testDruidDataSource - com.mysql.cj.jdbc.ConnectionImpl@4d9d1b69	16
+09:49:40.425 INFO  com.yc.config.Test02_DataSourceConfig 57 testEnvironment - a123	C:\Users\Jam.DESKTOP-E509JBL
+09:49:40.446 INFO  com.yc.config.Test02_DataSourceConfig 65 test_dataSourceConnection - com.mysql.cj.jdbc.ConnectionImpl@77b21474
+09:49:40.493 INFO  com.yc.config.Test02_DataSourceConfig 73 test_DbcpDataSourceConnection - 1760401098, URL=jdbc:mysql://localhost:3306/bank?serverTimezone=UTC, MySQL Connector/J
+09:49:40.495 INFO  com.yc.config.Test02_DataSourceConfig 52 testPropertySource - root
+09:49:40.533 INFO  com.yc.myconfigs.MyDataSourceConfig 78 druidDataSource - 配置druid的连接池的大小:16
+09:49:40.727 INFO  com.alibaba.druid.support.logging.Log4j2Impl 106 info - {dataSource-3} inited
+09:49:40.795 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 50 insert - 新开账户为:22
+09:49:40.799 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 38 findAll - [Account(accountid=1, balance=319.0), Account(accountid=2, balance=736.0), Account(accountid=3, balance=1153.0), Account(accountid=4, balance=1570.0), Account(accountid=5, balance=1987.0), Account(accountid=6, balance=2404.0), Account(accountid=7, balance=2821.0), Account(accountid=8, balance=3238.0), Account(accountid=9, balance=3655.0), Account(accountid=10, balance=4072.0), Account(accountid=11, balance=4489.0), Account(accountid=12, balance=4906.0), Account(accountid=13, balance=5323.0), Account(accountid=14, balance=5740.0), Account(accountid=15, balance=6157.0), Account(accountid=16, balance=7729.0), Account(accountid=18, balance=6766.0), Account(accountid=19, balance=6666.0), Account(accountid=20, balance=10000.0), Account(accountid=21, balance=6666.0), Account(accountid=22, balance=6666.0)]
+09:49:40.808 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 44 findById - Account(accountid=1, balance=319.0)
+09:49:40.833 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 32 findCount - 21

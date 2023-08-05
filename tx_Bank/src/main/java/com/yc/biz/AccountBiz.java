@@ -12,37 +12,23 @@ public interface AccountBiz {
     public Account openAccount(double money);
 
     /**
-     * 自主型取款
+     * 取款
      * @param accountid
      * @param money
      * @return
      */
     public Account deposite(int accountid, double money);
 
-    /**
-     * 转账型存款
-     * @param accountid
-     * @param money
-     * @param transferId
-     * @return
-     */
     public Account deposite(int accountid,double money, Integer transferId);
 
     /**
-     * 自主型存款
+     * 存款
      * @param accountid
      * @param money
      * @return
      */
     public Account withdraw(int accountid, double money);
 
-    /**
-     * 转账型存款
-     * @param accountid
-     * @param money
-     * @param transferId
-     * @return
-     */
     public Account withdraw(int accountid, double money, Integer transferId);
 
     /**

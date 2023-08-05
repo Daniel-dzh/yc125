@@ -40,7 +40,7 @@ public class AccountBizImpl implements AccountBiz{
 
     @Override
     public Account deposite(int accountid, double money) {
-        return this.deposite(accountid,money);
+        return this.deposite(accountid,money,null);
     }
 
     @Override
@@ -71,7 +71,7 @@ public class AccountBizImpl implements AccountBiz{
 
     @Override
     public Account withdraw(int accountid, double money) {
-        return this.withdraw(accountid, money);
+        return this.withdraw(accountid, money,null);
     }
 
     @Override
@@ -85,6 +85,8 @@ public class AccountBizImpl implements AccountBiz{
         }
         //取款,金额相减
         a.setBalance( a.getBalance()-money);
+        this.accountDao.update(accountid,a.getBalance());
+
         OpRecord opRecord = new OpRecord();
         opRecord.setAccountid( accountid );
         opRecord.setOpmoney( money );
